@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blurred Background with Text</title>
+    <style>
+        
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-y: scroll;
+        }
+        @media (max-width: 768px) {
+            .text-overlay {
+                font-size: 1.5rem;
+                width: 85%;
+            }
+            .background {
+                background-size: contain; /* Adjust background image size for tablets */
+            }
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('sp.jpg'); /* Replace with your image */
+            background-size: ;
+            background-position: center;
+            filter: blur(5px);
+            transition: filter 0.3s;
+            opacity: 0.7; /* Add transparency */
+        }
+        .container {
+            position: relative;
+            min-height: 200vh; /* Extend the height to create scrollable content */
+        }
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(9, 8, 9);
+            text-align: center;
+            
+        }
+        body:hover .background {
+            filter: blur(2px); /* Decrease blur strength on scroll */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <div class="text-overlay"><b>first of all Thank you <br>
+            ila kuda avuthundhi ani kalalo kuda anukoledhu emo em jaruguthundhi em ardham kavatledhu
+            thank you for giving memories for 20 years <br>
+            thankyou for being with me for 20 years <br>
+            ninnu tittadaniki kuda kopam ravatledhe ento anthala alochisthunna okkasari ayina gurthu vachana asalu <br>
+            may be ranule 
+            ippatiki ardham kavatledhu kotta frnds antha fastga antha close avutharani 
+            asalu reason enti kuda ardham kavatledhu
+            entha close ante nuvvevaru ani muttukonivvakunda vadevado cheyyi pattukuni mari teeskellav chudu akkade odipoya 
+            but emo neela mundhununchi kaneesam vere ammailatho konchem matladina saripoyedhemo ipudila ayyevadni kadhemo
+            <br>
+            im failed.......<br>
+            nuvve na everything anukunna fail ayya<br>
+            nen edche situations ravu anukunna fail ayya<br>
+            nen denilo odipole nakedhi odipoyinattu anipinchale kevalam ne vishayam lo matrame<br>
+            <br>
+            brathiki unnappude narakam ella untundhani chupisthunnav<br>
+            emo cheppadaniki matalu kudaratle akariki unna value mottam teesesav evaro kuda teliyani me frnds tho block cheyyinchav<br>
+            na life ila kuda untundhi ani parichayam chesav thanks<br>
+
+            inni chesina naku ento ne meedha kopam ratledhu nuv ela unnav ani alochisthunna tappa nannu mosam chesav anukotle<br>
+            sarele edvadaniki nakem migalledhu pogottukodaniki kuda<br>
+            akariki entho istam ayina uruni frnds nuv nannu chusthe uncomfortable ani radam kuda manesaa<br>
+
+            nuv happyga unte parledhu ledhu antene navalla kavatledhu assalu ante assalu kavatle<br>
+            diamond vacheyyara malli <br>
+            kevalam ma amma and ne meedha promise valla <br>
+            ne happiness kosam chukkkalu chusthunna<br>
+            ayina em parledhu nuv happyga undu chalu<br>
+
+            may be nen neeku gurthu ranu impossible adhi 
+            okavela gurthochi unte devudu vinipinchukunnadu ledhante nuv idhi open cheyyav antha ne chethullone undhile
+            <br>
+            finally LOVE YOU RA DIAMOND<br>
+            <a href="https://pavankumarghg.github.io/hpybday/page/index.html">visit whern you really remember me </a>
+
+            
+        
+        
+        </b></div>
+    </div>
+</body>
+</html>
